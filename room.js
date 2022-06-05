@@ -10,6 +10,6 @@ function roomCheck() {
 function makeRoom() {
       document.getElementById("NewRoomBtn").click();
       setTimeout(roomCheck, 55); //50이하로 설정하면 서버오류남.
-};
+}
 
 makeRoom();
