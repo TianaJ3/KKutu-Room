@@ -1,15 +1,15 @@
 
 function setTitle() {
   let Title = "▅▆▇█▇▆▅▄▃▂▁▂▃▄".split("");
-  TitlesInterval = setInterval(() => {
+  TitleInterval = setInterval(() => {
       document.getElementById("room-title").value = Title.join("");
       document.getElementById("room-ok").click();
-      setTimeout(makeRoom, 55);
+      setTimeout(setRoom, 55);
 };
 
-function makeRoom() {
+function setRoom() {
       document.getElementById("SetRoomBtn").click();
       setTimeout(setTitle, 55);
 };
 
-makeRoom();
+setRoom();
