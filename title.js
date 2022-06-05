@@ -5,12 +5,12 @@ function setTitle() {
       const seconds = date.getSeconds();
         document.getElementById("room-title").value = `${hour}시 ${minutes}분 ${seconds}초`;
         document.getElementById("room-ok").click();
-        setTimeout(setRoom, 50); //35이하로 설정하면 서버오류남.
+        setTimeout(setRoom, 50); 
   };
   
   function setRoom() {
         document.getElementById("SetRoomBtn").click();
-        setTimeout(setTitle, 50); //35이하로 설정하면 서버오류남.
+        setTimeout(setTitle, 50); 
 }
   
 setRoom();
