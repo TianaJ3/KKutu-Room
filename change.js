@@ -1,6 +1,6 @@
 
 function setTitle() {
-        document.getElementById("room-title").value = `공백`
+        document.getElementById("room-title").value = `공백#0001`
         document.getElementById("room-ok").click();
         setTimeout(setRoom, 55);
   };
