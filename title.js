@@ -11,6 +11,6 @@ function setTitle() {
   function setRoom() {
         document.getElementById("SetRoomBtn").click();
         setTimeout(setTitle, 55); //50이하로 설정하면 서버오류남.
-  }
+}
   
 setRoom();
