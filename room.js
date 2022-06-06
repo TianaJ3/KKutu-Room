@@ -4,12 +4,12 @@ function roomCheck() {
       document.getElementById("room-round").value = `6`;
       document.getElementById("room-time").value = `90`;
       document.getElementById("room-ok").click();
-      setTimeout(makeRoom, 35);
+      setTimeout(makeRoom, 34);
   };
 
 function makeRoom() {
       document.getElementById("NewRoomBtn").click();
-      setTimeout(roomCheck, 35); 
+      setTimeout(roomCheck, 34); 
 }
 
 makeRoom();
