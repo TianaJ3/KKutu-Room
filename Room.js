@@ -6,6 +6,5 @@ function roomCrate() {
     document.getelementbyid("room-time").value = `90`;
     document.getelementbyid("room-ok").click();
     setTimeout(roomCrate, 85);
-};
-
+}
 roomCrate();
